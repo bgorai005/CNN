@@ -1,8 +1,8 @@
 # CNN
 CNN based image classifiers using a subset of the iNaturalist dataset.
 
-Build a CNN with:
-5 Conv → Activation → MaxPool blocks
+# Build a CNN with:
+- 5 Conv → Activation → MaxPool blocks
 Customizable dense & output layers (10 classes)
 Flexible filters, kernel sizes, activations, and neurons
 Compute total parameters & operations (based on m, k×k, n)
