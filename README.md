@@ -3,14 +3,14 @@ CNN based image classifiers using a subset of the iNaturalist dataset.
 
 # Build a CNN with:
 - 5 Conv → Activation → MaxPool blocks
-Customizable dense & output layers (10 classes)
-Flexible filters, kernel sizes, activations, and neurons
-Compute total parameters & operations (based on m, k×k, n)
-Train on iNaturalist:
-Use 80/20 train-validation split (balanced by class)
-Apply WandB sweeps for hyperparameter tuning:
-Filters, activations, dropout, batch norm, etc.
-Include:
+- Customizable dense & output layers (10 classes)
+- Flexible filters, kernel sizes, activations, and neurons
+- Compute total parameters & operations (based on m, k×k, n)
+# Train on iNaturalist:
+- Use 80/20 train-validation split (balanced by class)
+# Apply WandB sweeps for hyperparameter tuning:
+- Filters, activations, dropout, batch norm, etc.
+# Include:
 Accuracy vs experiments plot
 Parallel coordinates & correlation summary
 Report test accuracy
