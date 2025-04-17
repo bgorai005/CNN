@@ -27,10 +27,7 @@ This project implements a **custom CNN model** trained on the iNaturalist datase
   - `val_split`
   - `data_augmentation` (True/False)
 
-### `load_train_data()`
-- Simplified wrapper to load training data with or without data augmentation
 
----
 
 ##  Training and Sweeps
 
