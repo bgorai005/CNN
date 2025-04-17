@@ -62,28 +62,14 @@ This project implements a **custom CNN model** trained on the iNaturalist datase
 - Evaluates on test set
 - Computes overall and class-wise accuracy and loss
 
-### `plot_predictions()`
-- Visualizes predictions
-- Shows actual vs predicted labels for sample images
+### img_plot()
 
----
+-Visualizes predictions
 
-##  Additional Features
+-Displays 30 images in a 10×3 grid with actual vs predicted labels
 
-- **Batch Normalization** to stabilize and speed up training
-- **Dropout** to prevent overfitting
-- **W&B integration** for tracking metrics, visualizing loss/accuracy curves, and managing sweep results
 
----
 
-## 📈 Results & Observations
-
-- Training from scratch yielded strong performance
-- Sweeps helped identify best combination of dropout, filter arrangement, kernel size, and activations
-- **Data augmentation** positively impacted validation accuracy
-- Best models generalized well to test set
-
----
 
 ##  Dependencies
 
@@ -100,12 +86,7 @@ This project implements a **custom CNN model** trained on the iNaturalist datase
 # To train
 main()
 
-# To evaluate test set with best model
-test_evaluation_model(model_path='best_model.pth')
 
-# To plot predictions
-plot_predictions(model, test_loader)
-```
 
 ---
 
