@@ -1,8 +1,7 @@
-#  Deep Learning Assignment – CNN from Scratch
+#  Deep Learning Assignment – CNN 
 
-This project implements a **custom CNN model** trained on the iNaturalist dataset for a 10-class image classification task. It includes training, hyperparameter tuning using Weights & Biases (W&B), and model evaluation. **No transfer learning was used**—the model is built and trained from scratch.
+This project implements a **custom CNN model** trained on the iNaturalist dataset for a 10-class image classification task. It includes training, hyperparameter tuning using Weights & Biases (W&B), and model evaluation.
 
----
 
 ##  Project Structure
 
