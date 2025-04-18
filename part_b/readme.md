@@ -33,31 +33,31 @@ Includes options for data augmentation, batch size, and validation split
 ### model_train_val()
 Trains the model using:
 
--Loss: CrossEntropyLoss
+- Loss: CrossEntropyLoss
 
--Optimizer: Adam
+- Optimizer: Adam
 
--Customizable number of epochs and learning rate
+- Customizable number of epochs and learning rate
 
 ## Experiment Logging with W&B
 Used Weights & Biases (wandb) for:
 
--Tracking metrics
+- Tracking metrics
 
--Logging training/validation accuracy
+- Logging training/validation accuracy
 
--Comparing model performances across fine-tuning strategies
+- Comparing model performances across fine-tuning strategies
 
 ## Evaluation
 ### test_evaluation_model()
--Evaluates best model from training phase
+- Evaluates best model from training phase
 
--Returns test accuracy and class-wise performance
+- Returns test accuracy and class-wise performance
 
 ### img_plot()
--Visualizes 30 predictions in a 10×3 grid
+- Visualizes 30 predictions in a 10×3 grid
 
--Displays both actual and predicted labels
+- Displays both actual and predicted labels
 
 ## Results & Insights
 
