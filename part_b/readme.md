@@ -2,11 +2,11 @@
 This project demonstrates the fine-tuning of large pre-trained models (such as ResNet50) on the iNaturalist 12K dataset for a 10-class image classification task. The goal is to compare transfer learning techniques with training from scratch (Part A), and explore multiple fine-tuning strategies for efficiency and accuracy.
 
 ## Model Architecture
--Base Model: ResNet50 (pre-trained on ImageNet)
+- Base Model: ResNet50 (pre-trained on ImageNet)
 
--Modified Final Layer: Fully connected layer changed to output 10 classes instead of 1000
+- Modified Final Layer: Fully connected layer changed to output 10 classes instead of 1000
 
--Device: CUDA-enabled GPU for faster training
+- Device: CUDA-enabled GPU for faster training
 
 ## Fine-Tuning Strategies Explored
 We tested several strategies to make training tractable while maximizing performance:
