@@ -26,8 +26,8 @@ This project implements a **custom CNN model** trained on the iNaturalist datase
   - `batch_size`
   - `val_split`
   - `data_augmentation` (True/False)
-
-
+### `test_data_load()`
+ - Loads test data and prepare for test.
 
 ##  Training and Sweeps
 
