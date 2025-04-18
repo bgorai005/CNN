@@ -74,4 +74,11 @@ torch, torchvision
 wandb
 
 matplotlib, numpy
+## Run
+```
+wandb.init(project="DL_Assignment_2", name="pre_trainedmodel_rs_net")
+model = pretrain_model(freeze_percent=0.8, num_classes=10)
+trained_model = model_train_val(model, train_loader, val_loader, epochs=5)
+wandb.finish()
+```
 
