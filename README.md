@@ -6,8 +6,7 @@
 
 ├── inaturalist_12K/            # Dataset folder (organized into splits)
 │   ├── train/                  # Training images
-│   ├── val/                    # Validation images
-│   └── test/                   # Test images
+│   └── val/                   # Test images
 
 ├── partA/                      # Part A: Custom CNN from scratch
 │   ├── parta.py               # python file for part A
