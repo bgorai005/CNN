@@ -63,10 +63,7 @@ Used Weights & Biases (wandb) for:
 
 - Returns test accuracy and class-wise performance
 
-### img_plot()
-- Visualizes 30 predictions in a 10×3 grid
 
-- Displays both actual and predicted labels
 
 ## Results & Insights
 
