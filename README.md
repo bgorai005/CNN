@@ -1,23 +1,21 @@
 ## Biswajit Gorai Roll-no-MA24M005
 ## Assignment Structure
 .
+.
+├── README.md                   # Root README with overall project details
 
-├── README.md                     # Root README with project overview
+├── inaturalist_12K/            # Dataset folder (organized into splits)
+│   ├── train/                  # Training images
+│   ├── val/                    # Validation images
+│   └── test/                   # Test images
 
+├── partA/                      # Part A: Custom CNN from scratch
+│   ├── parta.py               # python file for part A
+│   ├── Parta.ipynb             # Jupyter notebook for Part A
+│   └── README.md               # Detailed README for Part A
 
-└── inaturalist_12K/              # Dataset folder (train, val, test)
-    ├── train/
-    ├── val/
-    └── test/
-
-├── partA/                        # Part A: CNN trained from scratch
-│  
-│   ├── train.py                 
-│   ├── Parta.ipynb            
-│   └── README.md                 # README for Part A
-
-├── partB/                        # Part B: Fine-tuning pre-trained GoogLeNet
-│   ├── partb.ipynb         # Fine-tuning with wandb sweep 
-│   ├── partb.py
-│   └── README.md                 # README for Part B (fine-tuning overview)
+├── partB/                      # Part B: Transfer Learning with GoogLeNet
+│   ├── partb.py                # python file for part B
+│   ├── partb.ipynb             # Notebook version of fine-tuning
+│   └── README.md               # Detailed README for Part B
 
