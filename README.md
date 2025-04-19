@@ -1,6 +1,7 @@
 ## Biswajit Gorai Roll-no-MA24M005
-## Assignment Structure
-.
+
+### Deep Learning Assignment – CNN
+### Assignment Structure
 ```
 ├── README.md                   # Root README with overall project details
 
