@@ -72,7 +72,6 @@ This project implements a **custom CNN model** trained on the iNaturalist datase
 - Python 3.7+
 - torch, torchvision
 - wandb
-- matplotlib, numpy
 
 ---
 
@@ -82,7 +81,8 @@ This project implements a **custom CNN model** trained on the iNaturalist datase
 # To train
 main()
 
-
+# Run the sweep agent
+wandb.agent(sweep_id, function=main, count=number of counts required)
 
 ---
 
