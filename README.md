@@ -1,7 +1,7 @@
 ## Biswajit Gorai Roll-no-MA24M005
 ## Assignment Structure
 .
-.
+```
 ├── README.md                   # Root README with overall project details
 
 ├── inaturalist_12K/            # Dataset folder (organized into splits)
@@ -19,3 +19,4 @@
 │   ├── partb.ipynb             # Notebook version of fine-tuning
 │   └── README.md               # Detailed README for Part B
 
+```
