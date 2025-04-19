@@ -29,6 +29,7 @@ data_load()
 Loads and processes the iNaturalist dataset
 
 Includes options for data augmentation, batch size, and validation split
+## data_loader(
 
 ### model_train_val()
 Trains the model using:
